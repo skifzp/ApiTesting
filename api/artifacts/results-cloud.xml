@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.197" tests="1" failures="1">
+  <testsuite name="" timestamp="2024-11-02T16:50:06" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Root Suite.Set Device Name &lt;cloud&gt;" timestamp="2024-11-02T16:50:06" tests="1" file="./api/tests/cloud/setDeviceName/setDeviceName.api.js" time="0.192" failures="1">
+    <testcase name="&quot;before all&quot; hook for &quot;With new name as old one&quot;" time="0.183" classname="Set Device Name &lt;cloud&gt;">
+      <failure message="getaddrinfo ENOTFOUND automation.ienso.com" type="Error"><![CDATA[Error: getaddrinfo ENOTFOUND automation.ienso.com
+    at AxiosError.from (file:///C:/Prg/iENSO/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///C:/Prg/iENSO/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:530:35)
+    at eventHandlers.<computed> (node_modules\follow-redirects\index.js:49:24)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:103:11)
+    at TLSSocket.socketErrorListener (node:_http_client:506:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///C:/Prg/iENSO/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Api.loginWrapper (file:///C:/Prg/iENSO/api/services/BaseClass.js:89:18)
+    at async Context.<anonymous> (file:///C:/Prg/iENSO/api/tests/cloud/setDeviceName/setDeviceName.api.js:21:28)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
